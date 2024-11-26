@@ -23,7 +23,7 @@ function compararDatas(data1, data2) {
     reader.onload = function(event) {
       try {
         const linhas = event.target.result.split("\n");
-        const resultadoCsv = ["Pago Até,Data do Vencimento,ID,Resultado"];
+        const resultadoCsv = ["Pago Ate,Data do Vencimento,ID,Resultado"];
         
         // Processa cada linha (pulando o cabeçalho)
         for (let i = 1; i < linhas.length; i++) {
